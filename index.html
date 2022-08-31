@@ -8,6 +8,71 @@
     <title>Booki</title>
 </head>
 <body>
-    
+    <!--Barre de Navigation-->
+    <header>
+        <img src="images/logo/Booki.png" alt="logo booki">
+        <nav>
+            <ul>
+                <li><a class="border-blue" href="#accommodation_from_Marseille">Hébergements</a></li>
+                <li><a class="border-blue" href="#activity_from_Marseille">Activités</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Barre de Recherche-->
+    <Section class="search-bar">
+        <h1>Trouvez votre hébergement  pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+        <div class="map">
+            <i class="fa fa-map-marker-alt"> </i>
+            <form method="post" action="traitement.php">
+                <input class="city" type="search" placeholder="Marseille, France" />
+            </form>	
+            <p class="search">Rechercher</p>
+            <i class="fas fa-search"></i>
+        </div>
+    </Section>
+
+ <!-- Filtres -->
+ <section class="filters-section">
+    <h3>Filtres</h3>
+    <div class="filters-icon">
+        <div class="filters">
+            <div class="icon">
+                <i class="fas fa-money-bill-wave icone_cercle"></i>
+            </div>
+                <p>Economique</p>
+        </div>
+        <div class="filters">
+            <div class="icon">
+                <i class="fas fa-child icone_cercle"></i>
+            </div>
+                <p>Familial</p>
+        </div>
+    </div>
+    <div class="filters-icon filters-column">
+        <div class="filters">
+            <div class="icon">
+                <i class="fas fa-heart icone_cercle"></i>
+            </div>
+                <p>Romantique</p>
+        </div>
+        <div class="filters">
+            <div class="icon">
+                <i class="fas fa-dog icone_cercle"></i>
+            </div>
+                <p>Animaux autorisés</p>
+        </div>
+    </div>
+</section>
+
+<!-- Info -->
+<section class="info-section">
+    <div class="info">
+        <div class="circle-info"><i class="fas fa-info"></i></div>
+        <h2> Plus de 500 logements sont disponibles dans cette ville</h2>
+    </div>
+</section>
+
 </body>
 </html>
