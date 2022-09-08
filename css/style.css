@@ -122,7 +122,6 @@ header img {
     border-radius: 30px;
     margin-right: 40px;
     cursor: pointer;
-    transition: 0.8s;
   }
 
   .filters-section .icon{
@@ -141,7 +140,6 @@ header img {
   .filters-section p{
     font-weight: 600;
     font-size: 110%;
-    display: flex;
     align-items: center;
     margin-left: 10px;
   }
@@ -185,8 +183,6 @@ header img {
     font-size: 81%;
     
   }
-
-
 
 
   /****** Hébergement *******/
@@ -236,15 +232,10 @@ header img {
     margin-bottom: 40px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.062);
-    transition: 0.8s;
     padding-bottom: 10px;
   }
 
  
-  .icon-star:before{
-    content: "\002605";
-  }
-
   .text-picture{
     margin-left: 15px;
     line-height: 25px;
@@ -259,11 +250,6 @@ header img {
   .hebergement-section .star{
     font-size: 90%;
   }
-
-  .icon-star:before{
-    content: "\002605";
-  }
-  
 
 
     /****** populaire *******/
@@ -312,5 +298,4 @@ header img {
     display: flex;
     margin-left: 40px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.062);
-    transition: 0.8s;
   }
