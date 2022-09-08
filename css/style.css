@@ -217,6 +217,18 @@ header img {
     margin: 5px 0 0 5px;
   }
 
+  .hebergement-section{
+    background: #F2F2F2;
+    width: 65%;
+    height: 650px;
+    border-radius: 20px;
+    margin-right: 30px;
+  }
+
+  .hebergement-section h2{
+    margin: 40px 0 40px 20px;
+  }
+
   .hebergement-section .border-picture{
     width: 220px;
     height: auto;
@@ -256,13 +268,20 @@ header img {
 
     /****** populaire *******/
   
+    .popular-section{
+      background: #F2F2F2;
+      width: 30%;
+      height: 650px;
+      border-radius: 20px;
+    }
+
     .popular-section .title-graph{
       display: flex;
       justify-content: space-around;
       align-items: center;
       margin: 40px 0;
     }
-    
+
   .popular-section .star{
     margin-top: 25px;
   }
